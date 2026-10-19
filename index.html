@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumière Coiffure — Yaoundé's premier hair salon celebrating African beauty. Expert braids, natural hair, locs, and luxury treatments in the heart of Cameroon." />
+  <title>Lumière Coiffure | Yaoundé's Premier Hair Salon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════ NAVIGATION ══════════════════════ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-mark">✦</span>
+        <span class="logo-text">Lumière <em>Coiffure</em></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Galerie</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#testimonials" class="nav-link">Avis</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-nav" id="bookBtn">Réserver</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════ HERO ══════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <img src="hero_hairdresser_1792358201768.png" alt="Elegant African hairstyle" class="hero-img" />
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">
+        <span class="eyebrow-line"></span>
+        Yaoundé, Cameroun
+        <span class="eyebrow-line"></span>
+      </p>
+      <h1 class="hero-title">
+        L'art de la<br />
+        <em>beauté africaine</em>
+      </h1>
+      <p class="hero-subtitle">Tresses, Locs, Naturel &amp; Soins de Luxe — Une expérience capillaire hors du commun</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Prendre Rendez-vous</a>
+        <a href="#gallery" class="btn btn-ghost">Voir la Galerie</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="8">0</span><span>+</span>
+          <span class="stat-label">Années d'expérience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="2400">0</span><span>+</span>
+          <span class="stat-label">Clientes satisfaites</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="18">0</span><span>+</span>
+          <span class="stat-label">Styles maîtrisés</span>
+        </div>
+      </div>
+    </div>
+    <a href="#services" class="scroll-cue" aria-label="Scroll down">
+      <span class="scroll-text">Découvrir</span>
+      <span class="scroll-arrow">↓</span>
+    </a>
+  </section>
+
+  <!-- ══════════════════════ MARQUEE BAND ══════════════════════ -->
+  <div class="marquee-band" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Tresses Africaines</span><span class="dot">✦</span>
+      <span>Locs &amp; Locks</span><span class="dot">✦</span>
+      <span>Afro Naturel</span><span class="dot">✦</span>
+      <span>Traitements Kératine</span><span class="dot">✦</span>
+      <span>Twist &amp; Twists Out</span><span class="dot">✦</span>
+      <span>Coloration</span><span class="dot">✦</span>
+      <span>Soins Profonds</span><span class="dot">✦</span>
+      <span>Tresses Africaines</span><span class="dot">✦</span>
+      <span>Locs &amp; Locks</span><span class="dot">✦</span>
+      <span>Afro Naturel</span><span class="dot">✦</span>
+      <span>Traitements Kératine</span><span class="dot">✦</span>
+      <span>Twist &amp; Twists Out</span><span class="dot">✦</span>
+      <span>Coloration</span><span class="dot">✦</span>
+      <span>Soins Profonds</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════ SERVICES ══════════════════════ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Ce que nous offrons</p>
+        <h2 class="section-title">Nos <em>Services</em></h2>
+        <p class="section-desc">Chaque prestation est réalisée avec passion, précision et des produits haut de gamme soigneusement sélectionnés.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-delay="0">
+          <div class="service-icon">🌿</div>
+          <h3>Tresses &amp; Nattes</h3>
+          <p>Box braids, Fulani braids, cornrows, feed-in… des créations artistiques qui durent.</p>
+          <div class="service-price">À partir de <strong>5 000 FCFA</strong></div>
+          <div class="service-glow"></div>
+        </div>
+        <div class="service-card featured" data-delay="100">
+          <div class="featured-badge">✦ Populaire</div>
+          <div class="service-icon">💛</div>
+          <h3>Locs &amp; Dreadlocks</h3>
+          <p>Démarrage, rétrécissement, styling et soins de vos locs pour un rendu naturellement magnifique.</p>
+          <div class="service-price">À partir de <strong>8 000 FCFA</strong></div>
+          <div class="service-glow"></div>
+        </div>
+        <div class="service-card" data-delay="200">
+          <div class="service-icon">🌸</div>
+          <h3>Cheveux Naturels</h3>
+          <p>Wash &amp; Go, twist out, braid out — sublimez votre texture naturelle avec nos experts.</p>
+          <div class="service-price">À partir de <strong>3 500 FCFA</strong></div>
+          <div class="service-glow"></div>
+        </div>
+        <div class="service-card" data-delay="300">
+          <div class="service-icon">✨</div>
+          <h3>Soins Profonds</h3>
+          <p>Masques protéinés, traitements kératine et soins à la vapeur pour restaurer l'éclat de vos cheveux.</p>
+          <div class="service-price">À partir de <strong>6 000 FCFA</strong></div>
+          <div class="service-glow"></div>
+        </div>
+        <div class="service-card" data-delay="400">
+          <div class="service-icon">🎨</div>
+          <h3>Coloration</h3>
+          <p>Balayage, ombré, couleurs vibrantes — donnez vie à votre personnalité avec nos couleurs éclatantes.</p>
+          <div class="service-price">À partir de <strong>10 000 FCFA</strong></div>
+          <div class="service-glow"></div>
+        </div>
+        <div class="service-card" data-delay="500">
+          <div class="service-icon">👑</div>
+          <h3>Forfait Mariée</h3>
+          <p>Coiffure de mariage sur-mesure avec essai inclus. Votre plus beau jour mérite un style inoubliable.</p>
+          <div class="service-price">À partir de <strong>25 000 FCFA</strong></div>
+          <div class="service-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ GALLERY ══════════════════════ -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Notre travail</p>
+        <h2 class="section-title">La <em>Galerie</em></h2>
+        <p class="section-desc">Des créations uniques nées de la rencontre entre tradition africaine et tendances contemporaines.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall" id="gal1">
+          <img src="hero_hairdresser_1792358201768.png" alt="Tresses élaborées avec accessoires dorés" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Tresses</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gal2">
+          <img src="braids_style_1792358242187.png" alt="Box braids avec accessoires" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Box Braids</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gal3">
+          <img src="natural_style_1792358256900.png" alt="Afro naturel stylisé" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Afro Naturel</span>
+          </div>
+        </div>
+        <div class="gallery-item wide" id="gal4">
+          <img src="salon_interior_1792358222438.png" alt="Intérieur du salon" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Notre Salon</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gal5">
+          <img src="loc_style_1792358271847.png" alt="Locs avec perles dorées" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Locs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ ABOUT ══════════════════════ -->
+  <section class="section about" id="about">
+    <div class="container about-container">
+      <div class="about-image-wrap">
+        <div class="about-img-frame">
+          <img src="salon_interior_1792358222438.png" alt="Notre salon Lumière Coiffure" />
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">8</span>
+          <span class="badge-text">Années de passion</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="section-eyebrow">Notre histoire</p>
+        <h2 class="section-title left">À <em>Propos</em><br />de Lumière</h2>
+        <p class="about-text">
+          Fondée à Yaoundé en 2016, <strong>Lumière Coiffure</strong> est née d'une vision simple : offrir aux femmes camerounaises une expérience capillaire digne des plus grands salons du monde, tout en célébrant la richesse et la diversité de la beauté africaine.
+        </p>
+        <p class="about-text">
+          Notre équipe de coiffeuses passionnées maîtrise aussi bien les techniques traditionnelles — tresses mandingues, twists bantous — que les tendances modernes. Chaque cliente qui entre chez nous est accueillie comme une reine.
+        </p>
+        <div class="about-features">
+          <div class="feature">
+            <span class="feature-icon">🌿</span>
+            <div>
+              <strong>Produits Naturels</strong>
+              <span>Huiles, beurres et soins 100% naturels</span>
+            </div>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">⚡</span>
+            <div>
+              <strong>Équipe Certifiée</strong>
+              <span>Professionnelles formées en Europe &amp; Afrique</span>
+            </div>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🌍</span>
+            <div>
+              <strong>100% Camerounais</strong>
+              <span>Fières de valoriser notre héritage</span>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">Nous rendre visite</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ TESTIMONIALS ══════════════════════ -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Ce qu'elles disent</p>
+        <h2 class="section-title">Avis de nos <em>Clientes</em></h2>
+      </div>
+      <div class="testimonials-track" id="testimonialsTrack">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Mes tresses n'ont jamais été aussi belles ! L'équipe est professionnelle, attentionnée et le salon est magnifique. Je ne vais nulle part ailleurs."</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div>
+              <strong>Abena Mbeki</strong>
+              <span>Yaoundé, Cameroun</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"J'ai fait mon forfait mariée ici et c'était incroyable. Elles ont su exactement ce que je voulais. Toutes mes invitées ont demandé où j'avais fait ma coiffure !"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background:var(--gold)">C</div>
+            <div>
+              <strong>Christelle Nkono</strong>
+              <span>Douala, Cameroun</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Mes locs sont traitées avec tellement de soin ici. L'ambiance est chaleureuse, les produits naturels, et le résultat est toujours au top. Je recommande vivement !"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background:#a855f7">F</div>
+            <div>
+              <strong>Fatima Bello</strong>
+              <span>Bafoussam, Cameroun</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Le meilleur salon de Yaoundé sans hésitation. Personnel accueillant, horaires flexibles et un talent artistique inégalé. Mes cheveux naturels n'ont jamais été aussi sains !"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background:#10b981">N</div>
+            <div>
+              <strong>Nadège Fouda</strong>
+              <span>Yaoundé, Cameroun</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button class="tctrl-btn" id="tPrev" aria-label="Précédent">&#8249;</button>
+        <div class="tctrl-dots" id="tDots"></div>
+        <button class="tctrl-btn" id="tNext" aria-label="Suivant">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ CONTACT ══════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <p class="section-eyebrow">Nous trouver</p>
+        <h2 class="section-title left">Venez nous <em>Rendre Visite</em></h2>
+        <div class="info-blocks">
+          <div class="info-block">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>Adresse</strong>
+              <span>Quartier Bastos, Avenue Kennedy<br />Yaoundé, Cameroun</span>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-icon">📞</span>
+            <div>
+              <strong>Téléphone / WhatsApp</strong>
+              <span><a href="tel:+237699001122">+237 699 001 122</a></span>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-icon">🕐</span>
+            <div>
+              <strong>Horaires d'ouverture</strong>
+              <span>Lun – Sam : 8h00 – 20h00<br />Dimanche : 10h00 – 17h00</span>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-icon">📱</span>
+            <div>
+              <strong>Réseaux Sociaux</strong>
+              <span>@lumierecoiffure_yde</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Réserver une prestation</h3>
+          <div class="form-group">
+            <label for="nameInput">Votre nom</label>
+            <input type="text" id="nameInput" name="name" placeholder="Marie Nguema" required />
+          </div>
+          <div class="form-group">
+            <label for="phoneInput">Téléphone / WhatsApp</label>
+            <input type="tel" id="phoneInput" name="phone" placeholder="+237 6XX XXX XXX" required />
+          </div>
+          <div class="form-group">
+            <label for="serviceInput">Service souhaité</label>
+            <select id="serviceInput" name="service" required>
+              <option value="" disabled selected>Choisir un service…</option>
+              <option value="tresses">Tresses &amp; Nattes</option>
+              <option value="locs">Locs &amp; Dreadlocks</option>
+              <option value="naturel">Cheveux Naturels</option>
+              <option value="soins">Soins Profonds</option>
+              <option value="coloration">Coloration</option>
+              <option value="mariee">Forfait Mariée</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="dateInput">Date souhaitée</label>
+            <input type="date" id="dateInput" name="date" required />
+          </div>
+          <div class="form-group">
+            <label for="messageInput">Message (optionnel)</label>
+            <textarea id="messageInput" name="message" rows="3" placeholder="Précisez votre style ou vos attentes…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width" id="submitBtn">
+            <span class="btn-text">Envoyer la demande</span>
+            <span class="btn-icon">✦</span>
+          </button>
+          <p class="form-note">Nous vous confirmons sous 24h via WhatsApp.</p>
+        </form>
+        <div class="form-success" id="formSuccess" hidden>
+          <div class="success-icon">✓</div>
+          <h3>Demande envoyée !</h3>
+          <p>Merci ! Nous vous contacterons très prochainement via WhatsApp pour confirmer votre rendez-vous.</p>
+          <button class="btn btn-ghost" id="resetForm">Nouvelle réservation</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ FOOTER ══════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <div class="footer-logo">
+        <span class="logo-mark">✦</span>
+        <span class="logo-text">Lumière <em>Coiffure</em></span>
+        <p class="footer-tagline">Yaoundé · Cameroun · Beauté Africaine</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#services">Services</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2026 Lumière Coiffure. Tous droits réservés.</p>
+    </div>
+    <div class="footer-glow"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
